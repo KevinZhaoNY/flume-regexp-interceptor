@@ -5,7 +5,7 @@ Flume interceptor that create new headers from other headers by regular expressi
 
 ## Example
 
-E.g. there are too tables in hadoop - `first`  and `second`.
+E.g. there are two tables in hadoop - `first`  and `second`.
 Flume watches spool directory and uploads files to hdfs to destination `first` and `second` respectively.
 Interceptor helps you determine table name.
 
